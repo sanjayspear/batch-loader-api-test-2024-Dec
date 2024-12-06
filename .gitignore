@@ -1,0 +1,29 @@
+# Maven build directory
+target/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# Compiled Java classes
+*.class
+
+# Log files
+*.log
+
+# Dependency directories (if any)
+lib/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Maven Wrapper files (if you're using the Maven Wrapper)
+.mvn/
+mvnw
+mvnw.cmd
