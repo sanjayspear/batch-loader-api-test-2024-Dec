@@ -45,5 +45,6 @@ public class GetAndPostExamples {
 			statusCode(201).
 			log().
 			all();
+		
 	}
 }

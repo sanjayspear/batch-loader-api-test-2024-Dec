@@ -3,20 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.ApiTestExamples">
+      <class name="tests.ValidateJSONAgainstSchema">
         <methods>
-          <include name="testValidation"/>
-          <include name="testPost"/>
-          <include name="testUnauthorizedAccess"/>
-          <include name="testDelete"/>
           <include name="testGet"/>
-          <include name="testPut"/>
-          <include name="testPerformance"/>
-          <include name="testAuthentication"/>
-          <include name="testPatch"/>
-          <include name="testErrorHandling"/>
         </methods>
-      </class> <!-- tests.ApiTestExamples -->
+      </class> <!-- tests.ValidateJSONAgainstSchema -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
